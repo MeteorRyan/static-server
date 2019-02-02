@@ -1,0 +1,13 @@
+{
+  "name": "static-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "MeteorRyan <rjeasley88@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

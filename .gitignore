@@ -1,0 +1,10 @@
+#Folder
+node_modules/
+coverage/
+dist/
+
+*.log
+*.log.*
+*.private.*
+
+.env
