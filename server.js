@@ -1,9 +1,13 @@
 // Require express
 const express = require('express')
+const morgan = require('morgan')
 // Create a new server instance
 const server = express()
 // Tell express to server static content
 // from the public folder
+server.use(morgan('common'))
+
+
 server.use(express.static('public', {
   extensions: ['html', 'htm', 'jpg']
 }))
